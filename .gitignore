@@ -1,2 +1,8 @@
 __pycache__/
 .DS_Store
+data/Europarl_en_fr/*.en
+data/Europarl_en_fr/*.fr
+data/EMEA_en_fr/*.en
+data/EMEA_en_fr/*.fr
+data/Europarl_en_fr/run/*.pt
+data/EMEA_en_fr/run/*.pt
