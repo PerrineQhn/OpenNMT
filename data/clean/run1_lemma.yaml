@@ -1,20 +1,20 @@
 # config_run1.yaml
-save_data: run1_data_lemma
-src_vocab: run1_model_lemma/run1_data_lemma.Europarl.en
-tgt_vocab: run1_model_lemma/run1_data_lemma.Europarl.fr
+save_data: data/clean/run1_data_lemma
+src_vocab: data/clean/run1_model_lemma/run1_data_lemma.Europarl.en
+tgt_vocab: data/clean/run1_model_lemma/run1_data_lemma.Europarl.fr
 
 data:
   corpus_1:
-    path_src: lemmatised/lemme_Europarl_train_100k.tok.true.clean.en
-    path_tgt: lemmatised/lemme_Europarl_train_100k.tok.true.clean.fr
+    path_src: data/clean/lemmatised/lemme_Europarl_train_100k.tok.true.clean.en
+    path_tgt: data/clean/lemmatised/lemme_Europarl_train_100k.tok.true.clean.fr
   valid:
-    path_src: lemmatised/lemme_Europarl_dev_3750.tok.true.clean.en
-    path_tgt: lemmatised/lemme_Europarl_dev_3750.tok.true.clean.fr
+    path_src: data/clean/lemmatised/lemme_Europarl_dev_3750.tok.true.clean.en
+    path_tgt: data/clean/lemmatised/lemme_Europarl_dev_3750.tok.true.clean.fr
 
 world_size: 1
 gpu_ranks: [0]
 
-save_model: run1_model_lemma/model
+save_model: data/clean/run1_model_lemma/model
 train_steps: 10000
 valid_steps: 5000
 save_checkpoint_steps: 5000

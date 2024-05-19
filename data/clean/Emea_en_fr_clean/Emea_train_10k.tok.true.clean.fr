@@ -338,7 +338,7 @@ les interactions possibles doivent donc être prises en compte par le médecin e
 ces symptômes sont les suivants : envie fréquente d ’ uriner , soif , perte d ’ appétit , sensation de malaise ( nausées ou vomissements ) , somnolence ou fatigue , rougeur et sécheresse de la peau , sécheresse de la bouche et odeur fruitée ( acétonique ) de l ’ haleine .
 4 .
 les patients dialysés traités par une injection d ’ Aranesp toutes les 2 semaines devront recevoir une dose initiale d ’ Aranesp équivalente au double de la dose hebdomadaire préalablement administrée .
-phosphate monosodique anhydre Phosphate disodique anhydre Chlorure de sodium Polysorbate 80 Eau pour préparations injectables
+Phosphate monosodique anhydre Phosphate disodique anhydre Chlorure de sodium Polysorbate 80 Eau pour préparations injectables
 Elisabethhof 19 2353 EW Leiderdorp Pays-Bas
 U EU / 1 / 99 / 128 / 002
 EXP { MM / YYY } Après ouverture , la solution peut être utilisée pendant 2 mois
@@ -347,7 +347,7 @@ si après cette réduction de dose , le taux d ’ hémoglobine augmente toujour
 5 .
 hypersensibilité connue à la substance active , à l ’ un des excipients ( voir rubrique 6.1 ) , ou à d&apos; autres anticorps monoclonaux humanisés .
 les effets indésirables suivants sont plus fréquents chez les patients recevant le traitement par voie intraveineuse ou pour lesquels un traitement séquentiel ( IV / oral ) a été institué :
-sanofi Pasteur MSD , Tel : + 46.8.564.888.60
+Sanofi Pasteur MSD , Tel : + 46.8.564.888.60
 sujet âgé
 é Des essais cliniques contrôlés n ’ ont pas démontré de bénéfices significatifs attribuables à
 Affections endocriniennes
@@ -581,7 +581,7 @@ il n ’ existe pas d ’ étude adaptée et standardisée chez la femme enceint
 fatigue Asthénie Pyrexie
 30 mg
 indication ( S )
-phosphate monosodique anhydre Phosphate disodique anhydre
+Phosphate monosodique anhydre Phosphate disodique anhydre
 2 .
 ces réactions sont habituellement transitoires et disparaissent généralement lors de la poursuite du traitement .
 si l ’ un de ces symptômes apparait , l ’ injection doit être immédiatement arrêtée et vous devez contacter votre médecin .
@@ -621,7 +621,7 @@ tout médicament inutilisé doit être jeté ou rapporté à la pharmacie .
 le stylo doit être retourné doucement pour éviter d ’ avoir de la mousse dans la cartouche .
 5 seringues préremplies de solvant .
 il n ’ existe pas de données suffisantes concernant l ’ utilisation de l ’ acide ibandronique chez la femme enceinte .
-Pyrexie , inflammation muqueuse , fatigue Fréquent :
+pyrexie , inflammation muqueuse , fatigue Fréquent :
 Insuman Comb 50 est un liquide ( suspension ) destiné à être injecté sous la peau .
 - les patients ayant présenté un infarctus du myocarde au cours des 90 derniers jours ,
 aucun ajustement posologique n ’ est nécessaire pour l&apos; éfavirenz .
@@ -1193,7 +1193,7 @@ S ’ assurer que la solution est préparée sur une surface propre et sèche .
 fréquent ( ≥ 1 / 100 à &lt; 1 / 10 )
 16 .
 Suède
-phosphate monosodique dihydraté Phosphate disodique dihydraté Chlorure de sodium Chlorure de calcium dihydraté Polysorbate 20 Glycine Leucine Isoleucine Thréonine Acide glutamique Phénylalanine Eau pour préparations injectables Hydroxyde de sodium ( pour ajustement du pH ) Acide chlorhydrique ( pour ajustement du pH )
+Phosphate monosodique dihydraté Phosphate disodique dihydraté Chlorure de sodium Chlorure de calcium dihydraté Polysorbate 20 Glycine Leucine Isoleucine Thréonine Acide glutamique Phénylalanine Eau pour préparations injectables Hydroxyde de sodium ( pour ajustement du pH ) Acide chlorhydrique ( pour ajustement du pH )
 - On ne sait pas si MIRCERA exerce un effet différent chez les patients présentant une
 les études menées avec l ’ hydrochlorothiazide ont mis en évidence des effets génotoxiques et carcinogènes équivoques dans certains modèles expérimentaux .
 TITULAIRE DE L ’ AUTORISATION DE MISE SUR LE MARCHE
@@ -1300,7 +1300,7 @@ les réponses globales ont été généralement supérieures et le nombre de pat
 dans des études non cliniques réalisées in vitro et in vivo , l&apos; ambrisentan n&apos; a provoqué ni l&apos; inhibition ni l&apos; induction des enzymes impliquées dans les phases I ou II du métabolisme des médicaments aux concentrations cliniquement pertinentes , ce qui suggère un faible potentiel d&apos; interactions sur le profil pharmacocinétique des médicaments métabolisés par ces voies .
 si vous souhaitez davantage d ’ informations sur la base des recommandations du CHMP , veuillez lire la discussion scientifique ( également comprise dans l ’ EPAR ) .
 les patients traités par du facteur VIII recombinant doivent être surveillés attentivement cliniquement , et à l ’ aide de tests biologiques appropriés , afin de dépister le développement d ’ inhibiteurs .
-TP s n&apos; e
+tp s n&apos; e
 2 .
 5 .
 respectez toujours la posologie indiquée par votre médecin .
@@ -2012,7 +2012,7 @@ le médicament doit donc être administré par voie intraveineuse chez les patie
 dans la population globale des SCA , le prasugrel a été associé à une incidence plus faible de décès CV , d&apos; IDM non fatal ou d&apos; accident vasculaire cérébral non fatal en comparaison au clopidogrel , indépendamment des caractéristiques initiales telles que l&apos; âge , le sexe , le poids , la région géographique , l&apos; utilisation d&apos; inhibiteurs aux récepteurs GPIIb / IIIa et le type de stent .
 si vous débutez une grossesse pendant le traitement avec Irbesartan Hydrochlorothiazide Winthrop , vous devez informer et consulter votre médecin sans délai .
 • AUTRES CONDITIONS
-céphalée , syncope Symptômes extrapyramidaux
+Céphalée , syncope Symptômes extrapyramidaux
 Belgique
 129 Les anomalies biologiques ayant une importance sur le plan clinique , rencontrées surtout aux doses supérieures à 10 millions d ’ UI par jour , comprennent une granulocytopénie et une leucopénie ; une baisse du taux d ’ hémoglobine et une thrombocytopénie ; une élévation des phosphatases alcalines , de la LDH , de la créatinine sérique et du taux sanguin d ’ urée .
 dans cette notice :
@@ -2678,7 +2678,7 @@ hépatite , hépatite cytolitique , stéatose hépatique , hépatomégalie , aug
 29 NOTICE :
 pour obtenir la taille de gouttelettes optimale pour l ’ administration de Ventavis , il est nécessaire d ’ utiliser le déflecteur vert .
 - frissons
-les autres composants sont : phosphate disodique heptahydraté phosphate monosodique dihydraté glycine
+les autres composants sont : Phosphate disodique heptahydraté phosphate monosodique dihydraté glycine
 1 .
 si vous souffrez de BPCO ou êtes un gros fumeur , vous devriez discuter avec votre médecin si un traitement par un anti-TNF est adapté pour vous. mé
 S u L&apos; érythropoïétine humaine est une hormone glycoprotéique endogène ; elle constitue le principal régulateur de l&apos; érythropoïèse par son interaction spécifique avec le récepteur de l ’ érythropoïétine sur
@@ -2891,7 +2891,7 @@ aucun effet indésirable inattendu n&apos; a été observé chez des sujets sain
 il augmente la production de thrombine , un autre facteur de coagulation , sur la surface des particules qui constituent les caillots de sang ( les plaquettes ) , ce qui permet de créer un « caillot » stable sur le site de l ’ hémorragie .
 NUMERO ( S ) D ’ AUTORISATION DE MISE SUR LE MARCHE
 des douleurs à l ’ estomac , des difficultés à avaler , des nausées et des vomissements se sont produits lors du traitement par INCRELEX .
-sanofi Pasteur MSD Ltd , Tel : + 3531.468.5600 Ísland :
+Sanofi Pasteur MSD Ltd , Tel : + 3531.468.5600 Ísland :
 Transmis pour consultation en mai 2002
 EU / 0 / 00 / 000 / 000
 CONDITIONS DE PRESCRIPTION ET DE DELIVRANCE
@@ -3356,7 +3356,7 @@ dans cette notice :
 DENOMINATION DU MEDICAMENT
 cette différence s ’ explique par le fait que les cinq études menées sur 2 ans incluent la période de régime seul de 4 semaines au cours de laquelle les patients ont perdu en moyenne 2,6 kg avant de débuter le traitement .
 lors des essais cliniques , plus de 90 % des patients ont été répondeurs à ces doses , avec une durée médiane de correction de la neutropénie de 2 jours .
-schizophrénie
+Schizophrénie
 chlorure de magnésium hydroxyde de sodium
 Remarque : la couleur du bouton dose est différente pour chacun des dosages du stylo prérempli PegIntron .
 la perte de la mémoire associée à la maladie d ’ Alzheimer est due à un trouble des signaux des messages envoyés au cerveau .
@@ -4066,7 +4066,7 @@ grossesse
 en tenant compte uniquement des femmes de 74 ans et plus , dont les fémurs sont particulièrement fragiles , les résultats semblent indiquer une baisse du risque de fracture de la hanche avec OSSEOR .
 MabCampath n = 149
 6 Traitement des patients adultes devant bénéficier d ’ une intervention chirurgicale orthopédique majeure programmée :
-céphalée , étourdissements Hyperkinésie , tremblements , dysphonie , paresthésie , hypoesthésie , hyperesthésie , concentration altérée , somnolence Conjonctivite , douleur oculaire , vision anormale , trouble des glandes lacrymales Maladie de Raynaud , bouffées vasomotrices , pâleur
+Céphalée , étourdissements Hyperkinésie , tremblements , dysphonie , paresthésie , hypoesthésie , hyperesthésie , concentration altérée , somnolence Conjonctivite , douleur oculaire , vision anormale , trouble des glandes lacrymales Maladie de Raynaud , bouffées vasomotrices , pâleur
 la plus faible exposition systémique au timolol suite à l ’ administration d ’ AZARGA n ’ est pas cliniquement pertinente .
 la prise concomitante d&apos; aliments ralentit la vitesse d&apos; absorption sans diminuer l&apos; absorption totale .
 informez votre médecin que vous avez oublié une dose .
@@ -4569,7 +4569,7 @@ si vous oubliez de prendre Irbesartan BMS Si par inadvertance vous oubliez un jo
 ne pas utiliser après ce délai .
 13 .
 • Bouffées de chaleur • Constipation • Tension dans le bas de l ’ abdomen • Pertes vaginales • Transpiration excessive
-DARONRIX ne doit en aucun cas être administré par voie intravasculaire .
+Daronrix ne doit en aucun cas être administré par voie intravasculaire .
 NUMERO DU LOT
 si l&apos; équilibre glycémique n&apos; est pas optimal ou si le patient a tendance à présenter des épisodes hyperglycémiques ou hypoglycémiques , il faut d&apos; abord vérifier le respect par le patient du traitement prescrit , les sites et les techniques d&apos; injection et l&apos; ensemble des autres facteurs susceptibles d&apos; augmenter la tendance à l&apos; hyper- ou l&apos; hypoglycémie , avant d&apos; envisager l&apos; ajustement de la dose d&apos; insuline .
 l ’ analyse des résultats chez les patients en surpoids traités par la metformine après échec du régime alimentaire seul a montré :
@@ -5241,7 +5241,7 @@ les effets indésirables suivants ( non listés au-dessus ) sont survenus avec P
 le pic plasmatique de PPIX est atteint quatre heures après l ’ administration per os d ’ une dose de 20 mg / kg de masse corporelle de 5-ALA HCl .
 ne pas congeler .
 chez les sujets randomisés dans les bras traités , la posologie a débuté par un comprimé de 8 mg de buprénorphine à J1 , suivi de 16 mg ( 2 comprimés de 8 mg ) de buprénorphine à J2 .
-sanofi PASTEUR MSD SNC 8 rue Jonas Salk F-69007 Lyon France
+Sanofi PASTEUR MSD SNC 8 rue Jonas Salk F-69007 Lyon France
 fréquent ( ≥ 1 / 100 à &lt; 1 / 10 )
 LOT
 ajouter 1,2 ml d&apos; eau pour préparations injectables dans le flacon contenant la poudre de Thyrogen .
@@ -5292,7 +5292,7 @@ ces concentrations moyennes étaient similaires à celles observées chez les pa
 XERISTAR 60 mg , gélule gastro-résistante Duloxétine
 Actraphane ne doit pas être jeté au tout à l ’ égout ou avec les ordures ménagères .
 phase d ’ entretien :
-Karvezide est administré par voie orale , au cours ou en dehors des repas .
+KARVEZIDE est administré par voie orale , au cours ou en dehors des repas .
 3 .
 non applicable
 oseltamivir 2 mg / kg deux fois par jour
@@ -5338,7 +5338,7 @@ Suède
 Celvapan , suspension injectable Vaccin grippal pandémique ( virion entier , cultivé sur cellule Vero , inactivé )
 Norge MSD ( Norge ) AS Tlf : + 47 32 20 73 00 msdnorge @ msd.no
 précautions particulières d&apos; emploi chez les animaux
-continuez à prendre CELSENTRI aussi longtemps que votre médecin vous l ’ indiquera .
+Continuez à prendre CELSENTRI aussi longtemps que votre médecin vous l ’ indiquera .
 7 .
 ( 44-20 ) 74 18 84 00 Fax ( 44-20 ) 74 18 84 16 E-mail : mail @ emea. europa. eu http : / / www. emea. europa. eu
 solution limpide incolore .
@@ -5394,13 +5394,13 @@ Axura 10 mg comprimés pelliculés Chlorhydrate de mémantine
 numéro DE LOT
 entretien
 België / Belgique / Belgien S. C. S .
-excipients : phosphate monosodique dihydraté , phosphate disodique dihydraté , chlorure de sodium , glycine , polysorbate 80 , acide chlorhydrique ( pour ajustement du pH ) , hydroxyde de sodium ( pour ajustement du pH ) et eau pour préparations injectables
+excipients : Phosphate monosodique dihydraté , phosphate disodique dihydraté , chlorure de sodium , glycine , polysorbate 80 , acide chlorhydrique ( pour ajustement du pH ) , hydroxyde de sodium ( pour ajustement du pH ) et eau pour préparations injectables
 Silapo n ’ a aucun effet ou qu ’ un effet négligeable sur l ’ aptitude à conduire des véhicules et à utiliser des machines .
 pour chaque groupe d ’ événements , les effets indésirables sont présentés suivant un ordre décroissant de fréquence .
 si vous les observez , vous pouvez avoir eu une réaction allergique sérieuse à IntronA .
 chaque comprimé contient 60 mg de cinacalcet ( sous forme de chlorhydrate )
 9 .
-phosphate monosodique dihydrogéné dihydraté , glycérol , hydroxyde de sodium , acide chlorhydrique ( pour ajustement du pH ) et eau pour préparations injectables .
+Phosphate monosodique dihydrogéné dihydraté , glycérol , hydroxyde de sodium , acide chlorhydrique ( pour ajustement du pH ) et eau pour préparations injectables .
 246 4.6 Grossesse et allaitement
 - Si vous ne vous nourrissez pas suffisamment , votre taux de sucre dans le sang risque de diminuer
 GlaxoSmithKline Export Ltd 980 Great West Road Brentford Middlesex TW8 9GS Royaume Uni
@@ -5875,7 +5875,7 @@ une grande variété de désordres auto-immuns et d ’ origine immunologique on
 il est indiqué en association avec d ’ autres antirétroviraux pour le traitement des adultes et des enfants infectés par le virus de l ’ immunodéficience humaine de type 1 ( VIH-1 ) , un virus responsable du syndrome de l ’ immunodéficience acquise ( SIDA ) .
 vous pourriez présenter une hyperglycémie si : • vous n&apos; avez pas pris votre dose d&apos; Humalog ou d&apos; une autre insuline ; • vous prenez moins d&apos; insuline que la dose prescrite par votre médecin ; • votre alimentation dépasse de beaucoup les limites permises par votre régime alimentaire ; • vous avez de la fièvre , une infection ou êtes en état de stress .
 filgrastim HEXAL est utilisé chez l ’ enfant et l ’ adulte pour accroître le nombre de globules blancs et réduire la survenue et la durée des infections associées à des formes spécifiques de neutropénie chronique sévère : congénitale ( innée ) , cyclique ( récurrente ) ou idiopathique ( sans cause connue ) .
-certains antihistaminiques ( ex. : Terfénadine et astémizole ) •
+certains antihistaminiques ( ex. : terfénadine et astémizole ) •
 21,1 ; 100 ) , 45,4 % ( IC 95 % : -81,5 ; 86,6 ) et 74,7 % ( IC 95 % : -386,2 ; 99,6 ) .
 concernant le risque accru de décès observé , la part de responsabilité de la toxicité de la venlafaxine en cas de surdosage , par rapport à certaines caractéristiques des patients traités par venlafaxine , n ’ est pas clairement établie .
 COMITE DES MEDICAMENTS A USAGE HUMAIN ( CHMP )
@@ -6012,7 +6012,7 @@ lithium :
 des céphalées à type de migraines violentes et à début brutal peuvent en être le signal d&apos; alarme .
 excipients :
 les concentrations plasmatiques de l ’ olanzapine
-sanofi Pasteur MSD , Tel : + 31.23.567.96.00 Norge :
+Sanofi Pasteur MSD , Tel : + 31.23.567.96.00 Norge :
 1 .
 comment prendre le médicament Vous ne devez ni mâcher ni casser les comprimés .
 composition QUALITATIVE ET QUANTITATIVE
@@ -6277,7 +6277,7 @@ autres informations sur les interactions de l&apos; hydrochlorothiazide : les m�
 8 .
 1
 le taux global de déficits symptomatiques était de 4,4 % , de 6 % chez les patients atteints d ’ une ACV de grade 3 et de 12,5 % chez les patients atteints d ’ une ACV de grade 4 .
-sanofi PHARMA BRISTOL-MYERS SQUIBB SNC
+Sanofi PHARMA BRISTOL-MYERS SQUIBB SNC
 NUMERO ( S ) D ’ AUTORISATION DE MISE SUR LE MARCHE
 EXP { MM / AAAA } Conservation après ouverture :
 le CHMP a considéré que les mises en garde suivantes devaient être incluses dans le RCP pour Cozaar dans tous les États membres : hypersensibilité ; angio-œ dème ; chirurgie ; anesthésie ; hémodialyse ; greffe de rein ; patients noirs ; maladie valvulaire obstructive .
@@ -8085,7 +8085,7 @@ troubles cardiaques Troubles du sang et du système lymphatique
 dosage
 SUSTIVA est un médicament antiviral .
 st
-phosphate monosodique anhydre Phosphate disodique anhydre Chlorure de sodium Polysorbate 80 Eau pour préparations injectables
+Phosphate monosodique anhydre Phosphate disodique anhydre Chlorure de sodium Polysorbate 80 Eau pour préparations injectables
 la dose quotidienne ne doit pas dépasser 6 comprimés de MIRAPEXIN 0,088 mg ou une dose de 0,54 mg ( 0,75 mg de sel de pramipexole ) .
 5 jours
 LOT
@@ -8654,7 +8654,7 @@ NS
 1 .
 cette différence a été attribuée à un pourcentage d ’ arrêt de traitement moins important chez les patients traités par lénalidomide / dexaméthasone ( 39,7 % ) par rapport aux patients traités par placebo / dexaméthasone ( 70,4 % ) lié à une progression moins importante de la maladie .
 a conserver au réfrigérateur .
-Restriction alimentaire par rapport aux troubles visuels Un examen oculaire avec lampe à fente est recommandé avant d ’ instaurer le traitement à la nitisinone .
+restriction alimentaire par rapport aux troubles visuels Un examen oculaire avec lampe à fente est recommandé avant d ’ instaurer le traitement à la nitisinone .
 a conserver à une température ne dépassant pas 30 ° C .
 70,6 ( 12 / 17 ) 42,1 ; 99,1
 Examinez la cartouche avant de l ’ utiliser .
@@ -8934,7 +8934,7 @@ date DE PEREMPTION
 12
 5 jours
 7 .
-sanofi Pharma Bristol-Myers Squibb SNC F
+Sanofi Pharma Bristol-Myers Squibb SNC F
 10 , 20
 PROPRIETES PHARMACOLOGIQUES
 le niveau et le temps de normalisation du TCA observés après administration de KOGENATE Bayer sont comparables aux valeurs obtenues avec le facteur VIII d ’ origine plasmatique .
@@ -9740,7 +9740,7 @@ conserver la seringue préremplie dans son emballage extérieur , à l&apos; abr
 troubles articulaires Calculs rénaux , urines anormales , albuminurie , hypercalcinurie , néphrites , hyperuricémie
 poudre :
 52 Faites attention avec Pritor
-effets indésirables peu fréquents ( touchant de 1 à 10 patients sur 1 000 ) : céphalée , ulcère de l ’ estomac , vomissement , nausée , constipation , excès de gaz dans l ’ estomac ou l ’ intestin , éruptions , démangeaison cutanée , étourdissement , sensation de toucher anormale .
+effets indésirables peu fréquents ( touchant de 1 à 10 patients sur 1 000 ) : Céphalée , ulcère de l ’ estomac , vomissement , nausée , constipation , excès de gaz dans l ’ estomac ou l ’ intestin , éruptions , démangeaison cutanée , étourdissement , sensation de toucher anormale .
 l ’ excrétion du composé inchangé n ’ est que de 1 – à 3 % .
 pesant moins de 47 kg .
 Assurez- vous de choisir la présentation et le dosage appropriés .
