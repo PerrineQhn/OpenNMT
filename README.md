@@ -7,6 +7,7 @@ Projet pour le cours de Traduction Automatique et Assistée
 - **train_steps** : 10000
 - **test_steps** : 5000
 
+Utilisation d'un GPU pour l'entrainement
 
 ## Constuction des vocabulaires
 
