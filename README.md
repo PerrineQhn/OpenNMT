@@ -23,6 +23,32 @@ Voici les différents fichiers `.yaml` utilisés pour la construction des vocabu
 `data/clean/run1_lemma.yaml` ;
 `data/clean/run2_lemma.yaml`
 
+### La composition des modèles
+
+run1 :
+
+- train : 100K (Europarl)
+- dev (référence) : 3,75K (Europarl)
+- test (prédiction) : 500 (Europarl) & 500 (EMEA)
+
+run2 :
+
+- train : 100K (Europarl) + 10K (EMEA)
+- dev (référence) : 3,75K (Europarl)
+- test (prédiction) : 500 (Europarl) & 500 (EMEA)
+
+run1_lemma :
+
+- train : 100K (Europarl lemmatisés)
+- dev (référence) : 3,75K (Europarl lemmatisés)
+- test (prédiction) : 500 (Europarl lemmatisés) & 500 (EMEA lemmatisés)
+
+run2_lemma :
+
+- train : 100K (Europarl lemmatisés) + 10K (EMEA lemmatisés)
+- dev (référence) : 3,75K (Europarl lemmatisés)
+- test (prédiction) : 500 (Europarl lemmatisés) & 500 (EMEA lemmatisés)
+
 Exemple :
 
 ```python
