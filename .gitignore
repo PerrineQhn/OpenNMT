@@ -1,5 +1,5 @@
 __pycache__/
-.DS_Store
+**/.DS_Store
 data/Europarl_en_fr/Europarl.en
 data/Europarl_en_fr/Europarl.fr
 data/EMEA_en_fr/EMEA.en

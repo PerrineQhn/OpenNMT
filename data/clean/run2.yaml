@@ -1,31 +1,23 @@
 # config_run2.yaml
-save_data: Europarl_en_fr/run2_data
-src_vocab: Europarl_en_fr/run2_model/Europarl.en
-tgt_vocab: Europarl_en_fr/run2_model/Europarl.fr
+save_data: run2_data
+src_vocab: run2_model/run2_data.Europarl.en
+tgt_vocab: run2_model/run2_data.Europarl.fr
 
 data:
   corpus_1:
-    path_src: Europarl_en_fr/Europarl_train_100k.tok.true.clean.en
-    path_tgt: Europarl_en_fr/Europarl_train_100k.tok.true.clean.fr
+    path_src: Europarl_en_fr_clean/Europarl_train_100k.tok.true.clean.en
+    path_tgt: Europarl_en_fr_clean/Europarl_train_100k.tok.true.clean.fr
   corpus_2:
-    path_src: EMEA_en_fr/Emea_train_10k.tok.true.clean.en
-    path_tgt: EMEA_en_fr/Emea_train_10k.tok.true.clean.fr
+    path_src: Emea_en_fr_clean/Emea_train_10k.tok.true.clean.en
+    path_tgt: Emea_en_fr/Emea_train_10k.tok.true.clean.fr
   valid:
-    path_src: Europarl_en_fr/Europarl_dev_3750.tok.true.clean.en
-    path_tgt: Europarl_en_fr/Europarl_dev_3750.tok.true.clean.fr
+    path_src: Europarl_en_fr_clean/Europarl_dev_3750.tok.true.clean.en
+    path_tgt: Europarl_en_fr_clean/Europarl_dev_3750.tok.true.clean.fr
 
 world_size: 1
 gpu_ranks: [0]
 
-save_model: Europarl_en_fr/run2_model/model
+save_model: run2_model/model
 train_steps: 10000
 valid_steps: 5000
-# batch_size: 64
-# valid_batch_size: 16
-# optim: adam
-# learning_rate: 2.0
-# warmup_steps: 8000
-# report_every: 50
-# log_file: run2_log.log
 save_checkpoint_steps: 5000
-# keep_checkpoint: 10

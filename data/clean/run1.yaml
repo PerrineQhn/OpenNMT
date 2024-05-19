@@ -12,9 +12,9 @@ data:
     path_tgt: Europarl_en_fr_clean/Europarl_dev_3750.tok.true.clean.fr
 
 world_size: 1
-# gpu_ranks: [0]
+gpu_ranks: [0]
 
 save_model: run1_model/model
-train_steps: 1000
-valid_steps: 500
-save_checkpoint_steps: 500
+train_steps: 10000
+valid_steps: 5000
+save_checkpoint_steps: 5000
