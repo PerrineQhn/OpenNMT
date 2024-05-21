@@ -80,7 +80,7 @@ onmt_train -config data/clean/run1.yaml
 ## Prédiction
 
 ```python
-ontm_translate -model fichier.pt -src fichier_soucrce -output fichier_prediction -verbose
+onmt_translate -model fichier.pt -src fichier_source -output fichier_prediction -verbose
 ```
 
 `fichier.pt` : modèle entrainé
