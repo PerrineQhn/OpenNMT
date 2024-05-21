@@ -92,7 +92,7 @@ ontm_translate -model fichier.pt -src fichier_soucrce -output fichier_prediction
   - `data/clean/run1_model/model_step_10000.pt`
   - `data/clean/run2_model/model_step_10000.pt`
 
-  - `data/clean/run1_model_lemma/model_step_10000.pt` 
+  - `data/clean/run1_model_lemma/model_step_10000.pt`
   - `data/clean/run2_model_lemma/model_step_10000.pt`
 
 - Voici les différents fichiers `.src` utilisés pour la prédiction :
@@ -108,7 +108,6 @@ Exemple :
 ```python
 onmt_translate -model data/clean/run1_model/model_step_10000.pt -src data/clean/Europarl_en_fr_clean/Europarl_test_500.tok.true.clean.en -output data/clean/run1_model/src_europarl_prediction_10000.txt -verbose
 ```
-
 
 ## Score BLEU
 
@@ -141,8 +140,8 @@ python3 src/compute-bleu.py target prediction
 
 **target** : fichier contenant les phrases cibles
 
-- `data/clean/lemmatised/lemme_Europarl_test_500.tok.true.clean.en`
-- `data/clean/lemmatised/lemme_Emea_test_500.tok.true.clean.en`
+- `data/clean/lemmatised/lemme_Europarl_test_500.tok.true.clean.fr`
+- `data/clean/lemmatised/lemme_Emea_test_500.tok.true.clean.fr`
 
 **prediction** : fichier contenant les phrases prédites
 
@@ -159,5 +158,5 @@ python3 src/compute-bleu.py target prediction
 ## Exemple
 
 ```python
-python3 src/compute-bleu.py data/clean/Europarl_en_fr_clean/Europarl_test_500.tok.true.clean.en data/clean/run1_model/src_europarl_prediction_10000.txt
+python3 src/compute-bleu.py data/clean/Europarl_en_fr_clean/Europarl_test_500.tok.true.clean.fr data/clean/run1_model/src_europarl_prediction_10000.txt
 ```
