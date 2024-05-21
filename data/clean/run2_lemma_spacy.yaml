@@ -1,0 +1,23 @@
+# config_run2.yaml
+save_data: data/clean/run2_data_lemma_spacy
+src_vocab: data/clean/run2_model_lemma_spacy/run2_data_lemma_spacy.Europarl.en
+tgt_vocab: data/clean/run2_model_lemma_spacy/run2_data_lemma_spacy.Europarl.fr
+
+data:
+  corpus_1:
+    path_src: data/clean/lemmatised_spacy/lemme_Europarl_train_100k.tok.true.clean.en
+    path_tgt: data/clean/lemmatised_spacy/lemme_Europarl_train_100k.tok.true.clean.fr
+  corpus_2:
+    path_src: data/clean/lemmatised_spacy/lemme_Emea_train_10k.tok.true.clean.en
+    path_tgt: data/clean/lemmatised_spacy/lemme_Emea_train_10k.tok.true.clean.fr
+  valid:
+    path_src: data/clean/lemmatised_spacy/lemme_Europarl_dev_3750.tok.true.clean.en
+    path_tgt: data/clean/lemmatised_spacy/lemme_Europarl_dev_3750.tok.true.clean.fr
+
+world_size: 1
+gpu_ranks: [0]
+
+save_model: data/clean/run2_model_lemma_spacy/model
+train_steps: 10000
+valid_steps: 5000
+save_checkpoint_steps: 5000

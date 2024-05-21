@@ -9,7 +9,7 @@ data:
     path_tgt: data/clean/Europarl_en_fr_clean/Europarl_train_100k.tok.true.clean.fr
   corpus_2:
     path_src: data/clean/Emea_en_fr_clean/Emea_train_10k.tok.true.clean.en
-    path_tgt: data/clean/Emea_en_fr/Emea_train_10k.tok.true.clean.fr
+    path_tgt: data/clean/Emea_en_fr_clean/Emea_train_10k.tok.true.clean.fr
   valid:
     path_src: data/clean/Europarl_en_fr_clean/Europarl_dev_3750.tok.true.clean.en
     path_tgt: data/clean/Europarl_en_fr_clean/Europarl_dev_3750.tok.true.clean.fr
