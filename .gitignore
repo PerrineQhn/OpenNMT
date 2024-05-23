@@ -7,4 +7,4 @@ data/EMEA_en_fr/EMEA.fr
 data/Europarl_en_fr/run/*.pt
 data/EMEA_en_fr/run/*.pt
 data/*/*/*.pt
-data/clean_transformers/
+# data/clean_transformers/

@@ -1,0 +1,46 @@
+# config_run1.yaml
+save_data: data/clean_transformers/run1_data_lemma
+src_vocab: data/clean_transformers/run1_model_lemma/run1_data_lemma.Europarl.en
+tgt_vocab: data/clean_transformers/run1_model_lemma/run1_data_lemma.Europarl.fr
+
+data:
+  corpus_1:
+    path_src: data/clean_transformers/lemmatised/lemme_Europarl_train_100k.tok.true.clean.en
+    path_tgt: data/clean_transformers/lemmatised/lemme_Europarl_train_100k.tok.true.clean.fr
+  valid:
+    path_src: data/clean_transformers/lemmatised/lemme_Europarl_dev_3750.tok.true.clean.en
+    path_tgt: data/clean_transformers/lemmatised/lemme_Europarl_dev_3750.tok.true.clean.fr
+
+world_size: 1
+gpu_ranks: [0]
+
+save_model: data/clean_transformers/run1_model_lemma/model
+train_steps: 5000
+valid_steps: 2500
+save_checkpoint_steps: 1000
+
+decoder_type: transformer
+encoder_type: transformer
+word_vec_size: 512
+hidden_size: 512
+layers: 6
+transformer_ff: 2048
+heads: 8
+
+accum_count: 8
+optim: adam
+adam_beta1: 0.9
+adam_beta2: 0.998
+decay_method: noam
+learning_rate: 1.0
+max_grad_norm: 0.0
+
+batch_size: 4096
+batch_type: tokens
+normalization: tokens
+dropout: 0.1
+label_smoothing: 0.1
+
+param_init: 0.0
+param_init_glorot: 'true'
+position_encoding: 'true'
