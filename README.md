@@ -4,8 +4,15 @@ Projet pour le cours de Traduction Automatique et Assistée
 
 ## Paramètres Entrainement pour les deux runs
 
+**RNNs** :
+
 - **train_steps** : 10000
 - **test_steps** : 5000
+
+**Transformers** :
+
+- **train_steps** : 5000
+- **test_steps** : 2500
 
 Utilisation d'un GPU pour l'entrainement
 
@@ -17,11 +24,19 @@ onmt_build_vocab -config fichier.yaml -n_sample -1
 
 Voici les différents fichiers `.yaml` utilisés pour la construction des vocabulaires :
 
-`data/clean/run1.yaml` ;
-`data/clean/run2.yaml`
+- `data/clean/run1.yaml`
+- `data/clean/run2.yaml`
+- `data/clean/run1_lemma.yaml`
+- `data/clean/run2_lemma.yaml`
+- `data/clean/run1_lemma_spacy.yaml`
+- `data/clean/run2_lemma_spacy.yaml`
 
-`data/clean/run1_lemma.yaml` ;
-`data/clean/run2_lemma.yaml`
+- `data/clean_transformers/run1.yaml`
+- `data/clean_transformers/run2.yaml`
+- `data/clean_transformers/run1_lemma.yaml`
+- `data/clean_transformers/run2_lemma.yaml`
+- `data/clean_transformers/run1_lemma_spacy.yaml`
+- `data/clean_transformers/run2_lemma_spacy.yaml`
 
 ### La composition des modèles
 
@@ -37,13 +52,13 @@ run2 :
 - dev (référence) : 3,75K (Europarl)
 - test (prédiction) : 500 (Europarl) & 500 (EMEA)
 
-run1_lemma :
+run1_lemma / run1_lemma_spacy :
 
 - train : 100K (Europarl lemmatisés)
 - dev (référence) : 3,75K (Europarl lemmatisés)
 - test (prédiction) : 500 (Europarl lemmatisés) & 500 (EMEA lemmatisés)
 
-run2_lemma :
+run2_lemma / run2_lemma_spacy :
 
 - train : 100K (Europarl lemmatisés) + 10K (EMEA lemmatisés)
 - dev (référence) : 3,75K (Europarl lemmatisés)
@@ -67,9 +82,17 @@ onmt_train -config fichier.yaml
 
   - `data/clean/run1.yaml`
   - `data/clean/run2.yaml`
-
   - `data/clean/run1_lemma.yaml`
   - `data/clean/run2_lemma.yaml`
+  - `data/clean/run1_lemma_spacy.yaml`
+  - `data/clean/run2_lemma_spacy.yaml`
+
+  - `data/clean_transformers/run1.yaml`
+  - `data/clean_transformers/run2.yaml`
+  - `data/clean_transformers/run1_lemma.yaml`
+  - `data/clean_transformers/run2_lemma.yaml`
+  - `data/clean_transformers/run1_lemma_spacy.yaml`
+  - `data/clean_transformers/run2_lemma_spacy.yaml`
 
 Exemple :
 
@@ -95,6 +118,15 @@ onmt_translate -model fichier.pt -src fichier_source -output fichier_prediction 
   - `data/clean/run1_model_lemma/model_step_10000.pt`
   - `data/clean/run2_model_lemma/model_step_10000.pt`
 
+  - `data/clean_transformers/run1_model/model_step_5000.pt`
+  - `data/clean_transformers/run2_model/model_step_5000.pt`
+
+  - `data/clean_transformers/run1_model_lemma/model_step_5000.pt`
+  - `data/clean_transformers/run2_model_lemma/model_step_5000.pt`
+
+  - `data/clean_transformers/run1_model_lemma_spacy/model_step_5000.pt`
+  - `data/clean_transformers/run2_model_lemma_spacy/model_step_5000.pt`
+
 - Voici les différents fichiers `.src` utilisés pour la prédiction :
 
   - `data/clean/Europarl_en_fr_clean/Europarl_test_500.tok.true.clean.en`
@@ -103,21 +135,33 @@ onmt_translate -model fichier.pt -src fichier_source -output fichier_prediction 
   - `data/clean/lemmatised/lemme_Europarl_test_500.tok.true.clean.en`
   - `data/clean/lemmatised/lemme_Emea_test_500.tok.true.clean.en`
 
+  - `data/clean_transformers/Europarl_en_fr_clean/Europarl_test_500.tok.true.clean.en`
+  - `data/clean_transformers/Emea_en_fr_clean/Emea_test_500.tok.true.clean.en`
+
+  - `data/clean_transformers/lemmatised/lemme_Europarl_test_500.tok.true.clean.en`
+  - `data/clean_transformers/lemmatised/lemme_Emea_test_500.tok.true.clean.en`
+
+  - `data/clean_transformers/lemmatised_spacy/lemme_Europarl_test_500.tok.true.clean.en`
+  - `data/clean_transformers/lemmatised_spacy/lemme_Emea_test_500.tok.true.clean.en`
+
 Exemple :
 
 ```python
 onmt_translate -model data/clean/run1_model/model_step_10000.pt -src data/clean/Europarl_en_fr_clean/Europarl_test_500.tok.true.clean.en -output data/clean/run1_model/src_europarl_prediction_10000.txt -verbose
 ```
 
-## Score BLEU
+## Evaluation
+### Scores
 
-Le script `compute-bleu.py`provient du dépot suivant : [https://github.com/ymoslem/MT-Evaluation](https://github.com/ymoslem/MT-Evaluation)
+- Le script `compute-bleu.py`provient du dépot suivant : [https://github.com/ymoslem/MT-Evaluation](https://github.com/ymoslem/MT-Evaluation)
+- Utilisation Meteor-1.5 qui provient de ce site pour le script `meteor-socre.py` : [https://www.cs.cmu.edu/~alavie/METEOR/](https://www.cs.cmu.edu/~alavie/METEOR/)
+- 
 
 ```python
-python3 src/compute-bleu.py target prediction
+python3 src/[compute-bleu.py, meteor-score.py, bert-score.py] target prediction
 ```
 
-### Exercice 3
+#### Exercice 3
 
 **target** : fichier contenant les phrases cibles
 
@@ -126,34 +170,58 @@ python3 src/compute-bleu.py target prediction
 
 **prediction** : fichier contenant les phrases prédites
 
-#### Run 1
+##### Run 1
 
 - `data/clean/run1_model/src_europarl_prediction_10000.txt`
 - `data/clean/run1_model/src_emea_prediction_10000.txt`
 
-#### Run 2
+- `data/clean_transformers/run1_model/src_europarl_pred_5000.txt`
+- `data/clean_transformers/run1_model/src_emea_pred_5000.txt`
+
+##### Run 2
 
 - `data/clean/run2_model/src_europarl_prediction_10000.txt`
 - `data/clean/run2_model/src_emea_prediction_10000.txt`
 
-### Exercice 4
+- `data/clean_transformers/run2_model/src_europarl_pred_5000.txt`
+- `data/clean_transformers/run2_model/src_emea_pred_5000.txt`
+
+#### Exercice 4
 
 **target** : fichier contenant les phrases cibles
 
 - `data/clean/lemmatised/lemme_Europarl_test_500.tok.true.clean.fr`
 - `data/clean/lemmatised/lemme_Emea_test_500.tok.true.clean.fr`
 
+- `data/clean_transformers/lemmatised/lemme_Europarl_test_500.tok.true.clean.fr`
+- `data/clean_transformers/lemmatised/lemme_Emea_test_500.tok.true.clean.fr`
+
+- `data/clean_transformers/lemmatised_spacy/lemme_Europarl_test_500.tok.true.clean.fr`
+- `data/clean_transformers/lemmatised_spacy/lemme_Emea_test_500.tok.true.clean.fr`
+
 **prediction** : fichier contenant les phrases prédites
 
-#### Run 1
+##### Run 1
 
 - `data/clean/run1_model_lemma/src_europarl_prediction_10000.txt`
 - `data/clean/run1_model_lemma/src_emea_prediction_10000.txt`
 
-#### Run 2
+- `data/clean_transformers/run1_model_lemma/src_europarl_pred_5000.txt`
+- `data/clean_transformers/run1_model_lemma/src_emea_pred_5000.txt`
+
+- `data/clean_transformers/run1_model_lemma_spacy/src_europarl_pred_5000.txt`
+- `data/clean_transformers/run1_model_lemma_spacy/src_emea_pred_5000.txt`
+
+##### Run 2
 
 - `data/clean/run2_model_lemma/src_europarl_prediction_10000.txt`
 - `data/clean/run2_model_lemma/src_emea_prediction_10000.txt`
+
+- `data/clean_transformers/run2_model_lemma/src_europarl_pred_5000.txt`
+- `data/clean_transformers/run2_model_lemma/src_emea_pred_5000.txt`
+
+- `data/clean_transformers/run2_model_lemma_spacy/src_europarl_pred_5000.txt`
+- `data/clean_transformers/run2_model_lemma_spacy/src_emea_pred_5000.txt`
 
 ## Exemple
 
