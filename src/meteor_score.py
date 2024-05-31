@@ -1,3 +1,5 @@
+# Structure de la commande : python3 meteor_score.py data/valid.fr data/valid.pred
+
 import os
 import subprocess
 import sys
