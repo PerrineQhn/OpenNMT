@@ -9,7 +9,17 @@ METEOR_JAR = "src/meteor-1.5/meteor-1.5.jar"
 
 
 # Fonction pour appeler METEOR et calculer le score
-def calculate_meteor_score(reference_file, candidate_file):
+def calculate_meteor_score(reference_file: str, candidate_file: str) -> str:
+    """
+    Calcule le score METEOR entre un fichier de référence et un fichier de prédiction.
+
+    Parameters:
+    reference_file (str): Chemin du fichier de référence.
+    candidate_file (str): Chemin du fichier de prédiction.
+
+    Returns:
+    meteor_score (str): Score METEOR.
+    """
     command = [
         "java",
         "-jar",
