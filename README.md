@@ -155,7 +155,7 @@ onmt_translate -model data/clean/run1_model/model_step_10000.pt -src data/clean/
 ### Scores
 
 - Le script `compute_bleu.py`provient du dépot suivant : [https://github.com/ymoslem/MT-Evaluation](https://github.com/ymoslem/MT-Evaluation)
-- Utilisation Meteor-1.5 qui provient de ce site pour le script `meteor-socre.py` : [https://www.cs.cmu.edu/~alavie/METEOR/](https://www.cs.cmu.edu/~alavie/METEOR/)
+- Utilisation Meteor-1.5 qui provient de ce site pour le script `meteor_score.py` : [https://www.cs.cmu.edu/~alavie/METEOR/](https://www.cs.cmu.edu/~alavie/METEOR/)
 - Utilisation de `bert_score` pour le script `bert-score.py` : [https://github.com/Tiiiger/bert_score?tab=readme-ov-file](https://github.com/Tiiiger/bert_score?tab=readme-ov-file)
 
 ```python
