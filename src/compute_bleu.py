@@ -1,6 +1,6 @@
 # Corpus BLEU - files must be untokenized/unsubworded
 # Run this file from CMD/Terminal
-# Example Command: python3 compute-bleu.py test_file_name.txt mt_file_name.txt
+# Example Command: python3 src/compute_bleu.py test_file_name.txt mt_file_name.txt
 
 
 import sys
