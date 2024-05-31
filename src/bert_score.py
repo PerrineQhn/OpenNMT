@@ -4,7 +4,7 @@ import sys
 from bert_score import score
 
 
-def calcul_bert_score(candidate_text: str, reference_text: str, lang:str="fr", verbose:bool=False):
+def calcul_bert_score(candidate_text: str, reference_text: str, lang:str="fr", verbose:bool=False) -> tuple:
     """
     Calcule les scores Bert pour une liste de textes prédit et de référence.
 
