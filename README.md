@@ -154,13 +154,12 @@ onmt_translate -model data/clean/run1_model/model_step_10000.pt -src data/clean/
 
 ### Scores
 
-- Le script `compute-bleu.py`provient du dépot suivant : [https://github.com/ymoslem/MT-Evaluation](https://github.com/ymoslem/MT-Evaluation)
+- Le script `compute_bleu.py`provient du dépot suivant : [https://github.com/ymoslem/MT-Evaluation](https://github.com/ymoslem/MT-Evaluation)
 - Utilisation Meteor-1.5 qui provient de ce site pour le script `meteor-socre.py` : [https://www.cs.cmu.edu/~alavie/METEOR/](https://www.cs.cmu.edu/~alavie/METEOR/)
 - Utilisation de `bert_score` pour le script `bert-score.py` : [https://github.com/Tiiiger/bert_score?tab=readme-ov-file](https://github.com/Tiiiger/bert_score?tab=readme-ov-file)
 
-
 ```python
-python3 src/[compute-bleu.py, meteor-score.py, bert-score.py] target prediction
+python3 src/[compute_bleu.py, meteor_score.py, bert_score.py] target prediction
 ```
 
 #### Exercice 3
@@ -228,5 +227,5 @@ python3 src/[compute-bleu.py, meteor-score.py, bert-score.py] target prediction
 ## Exemple
 
 ```python
-python3 src/compute-bleu.py data/clean/Europarl_en_fr_clean/Europarl_test_500.tok.true.clean.fr data/clean/run1_model/src_europarl_prediction_10000.txt
+python3 src/compute_bleu.py data/clean/Europarl_en_fr_clean/Europarl_test_500.tok.true.clean.fr data/clean/run1_model/src_europarl_prediction_10000.txt
 ```
