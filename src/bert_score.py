@@ -4,13 +4,13 @@ import sys
 from bert_score import score
 
 
-def calcul_bert_score(candidate_text: list, reference_text: list, lang:str="fr", verbose:bool=False):
+def calcul_bert_score(candidate_text: str, reference_text: str, lang:str="fr", verbose:bool=False):
     """
     Calcule les scores Bert pour une liste de textes prédit et de référence.
 
     Parameters:
-    candidate_text (list): Liste de textes prédits.
-    reference_text (list): Liste de textes de référence.
+    candidate_text (str): Chemin du texte prédit.
+    reference_text (str): Chemin du texte de référence.
     lang (str): Langue du texte (par défaut: "fr").
     verbose (bool): Afficher les détails des scores Bert (par défaut: False).
 
