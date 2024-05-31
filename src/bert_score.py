@@ -1,8 +1,24 @@
+# Structure de la commande : python3 bert_score.py data/valid.fr data/valid.pred
+
 import sys
 from bert_score import score
 
 
-def calcul_bert_score(candidate_text, reference_text, lang="fr", verbose=False):
+def calcul_bert_score(candidate_text: list, reference_text: list, lang:str="fr", verbose:bool=False):
+    """
+    Calcule les scores Bert pour une liste de textes prédit et de référence.
+
+    Parameters:
+    candidate_text (list): Liste de textes prédits.
+    reference_text (list): Liste de textes de référence.
+    lang (str): Langue du texte (par défaut: "fr").
+    verbose (bool): Afficher les détails des scores Bert (par défaut: False).
+
+    Returns:
+    P (numpy.ndarray): Précision.
+    R (numpy.ndarray): Rappel.
+    F1 (numpy.ndarray): F1.
+    """
     # Calculer les scores Bert
     P, R, F1 = score(candidate_text, reference_text, lang=lang, verbose=verbose)
 
